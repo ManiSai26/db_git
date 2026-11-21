@@ -1,0 +1,22 @@
+# db_git repositories created while testing or running (contain real data)
+.db_git/
+
+# Environment files and credentials
+.env
+.env.*
+*.env
+
+# Local editor and AI assistant settings
+.claude/
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test artifacts and temporary outputs
+tests/results.xml
+*.tmp
+temp/

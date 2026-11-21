@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# db_git Unix launcher for macOS and Linux
+DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+exec pwsh -NoProfile -File "$DIR/db_git.ps1" "$@"

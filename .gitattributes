@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Windows command scripts require CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Shell scripts and executables require LF
+*.sh text eol=lf
+db_git text eol=lf
+
+# PowerShell scripts normalized to LF (works on pwsh cross-platform and Windows PowerShell 5.1+)
+*.ps1 text eol=lf
+*.psm1 text eol=lf
+*.psd1 text eol=lf
+
+# Documents and configurations
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
